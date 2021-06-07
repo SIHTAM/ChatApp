@@ -8,7 +8,7 @@ Dokumentation
 
 02.06.2021
 
-Index html und stylesheet mailo.m 06.02.2021 14:16
+Index html und stylesheet
 HTML- und CSS-Entwürfe für eine Anmeldeseite hinzugefügt 
 HTML- und CSS-Entwürfe für eine Anmeldeseite aktualisiert 
 Labels für Benutzername und Passwort hinzugefügt. 
