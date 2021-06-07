@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/ChatApplication.iml" filepath="$PROJECT_DIR$/.idea/ChatApplication.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/ChatApp.iml" filepath="$PROJECT_DIR$/.idea/ChatApp.iml" />
+>>>>>>> origin/main
     </modules>
   </component>
 </project>
