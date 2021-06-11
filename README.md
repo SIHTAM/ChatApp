@@ -1,4 +1,4 @@
-## Chatportal
+# Chatportal
 
 Online-Chat kann sich auf jede Art von Kommunikation über das Internet beziehen, die eine Echtzeitübertragung von Textnachrichten vom Sender zum Empfänger bietet. Chatnachrichten sind in der Regel kurz, damit andere Teilnehmer schnell antworten können. Dadurch wird ein einem gesprochenen Gespräch ähnliches Gefühl erzeugt, das den Chat von anderen textbasierten Online-Kommunikationsformen wie Internetforen und E-Mail unterscheidet. Online-Chat kann Punkt-zu-Punkt-Kommunikation sowie Multicast-Kommunikation von einem Sender zu vielen Empfängern und Sprach- und Video-Chat adressieren oder kann ein Merkmal eines Webkonferenzdienstes sein.
 
