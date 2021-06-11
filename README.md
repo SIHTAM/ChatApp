@@ -20,21 +20,23 @@ Dokumentation
 Zuerst habe ich ein Login Panel, mit verschiedenen Möglichkeiten, um sich anzumelden, erstellt.
 Wie Sie sehen können, habe ich verschiedene Farben verwendet, um die einzelnen Knöpfe voneinander abzuheben. 
 
- 
+![image](https://user-images.githubusercontent.com/56382532/121668101-3c9be480-caab-11eb-89f9-a3cf57a7b835.png)
 Abbildung 1: Login Übersicht
+
 Am rechten unteren Bildschirmrand habe ich einen sogenannten „Pop-Up“-Chat erstellt um Hilfe zu erfragen, wenn man mit den gegebenen Funktionen Schwierigkeiten hat.
 
- 
+![image](https://user-images.githubusercontent.com/56382532/121668159-50dfe180-caab-11eb-86b8-9c2e675e7311.png)
 Abbildung 2: Hilfe Chatfenster
 
 Anschließend habe ich ein Registrierformular erstellt, um sich bei der ChatApp registrieren zu können. Hier habe ich auch wieder auf die Farbkombination geachtet, um die graphische Benutzeroberfläche übersichtlich und intuitiv zu gestalten.
 
- 
+![image](https://user-images.githubusercontent.com/56382532/121668223-61905780-caab-11eb-996e-d16edc37ac94.png) 
 Abbildung 3: Sign-Up Seite
 
 Wenn man sich eingeloggt hat, bietet sich nun die Hauptseite für Weiterentwicklungen an. Da ich den Fokus auf die Chatfunktion gelegt habe wird eine solche auch dementsprechend entwickelt. Die restlichen Übersichtsfunktionen belasse ich, ohne weiter Funktionalitäten hinzuzufügen.
 
-  
+![image](https://user-images.githubusercontent.com/56382532/121668276-6ead4680-caab-11eb-8bfb-163de411115e.png)
+![image](https://user-images.githubusercontent.com/56382532/121668305-77058180-caab-11eb-9771-86b61e1d7832.png)  
 Abbildung 4: Übersichtsseite
 
 
@@ -65,5 +67,7 @@ Pop-Up Chat auf Login-Seite hinzugefügt, für Hilfestellung beim Login oder Reg
 Übersichtsseite hinzugefügt mit redundanten Suggestionen, der Fokus liegt auf dem Chat im Hauptmenü am oberen linken Bildschirmrand.
 
 Reflexion
+
+
 
 
