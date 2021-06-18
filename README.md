@@ -39,6 +39,15 @@ Wenn man sich eingeloggt hat, bietet sich nun die Hauptseite für Weiterentwickl
 ![image](https://user-images.githubusercontent.com/56382532/121668305-77058180-caab-11eb-9771-86b61e1d7832.png)  
 Abbildung 4: Übersichtsseite
 
+Wenn man im Hauptmenu auf Chat drückt, erscheinen diese drei Profile als Kacheln, welche eine Chatfunktion beinhaltet.
+
+![img_1.png](img_1.png)
+
+Wenn man auf das Chat Modul drückt, erscheint dieser hart-kodierte chatverlauf.
+
+![img_2.png](img_2.png)
+
+
 
 # Versionskontrolle
 
@@ -65,6 +74,11 @@ Pop-Up Chat auf Login-Seite hinzugefügt, für Hilfestellung beim Login oder Reg
 11.06.2021
 
 Übersichtsseite hinzugefügt mit redundanten Suggestionen, der Fokus liegt auf dem Chat im Hauptmenü am oberen linken Bildschirmrand.
+
+14.06.2021
+
+Aktualisierung der Readme.md Datei, die Chatseite friends.html mit Kacheln der Freunde ergänzt und mögliche Chatverläufe hart-kodiert 
+und mittels css in style.css dargestellt.
 
 # Reflexion
 
