@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="container">
-    <form action="main.html">
+    <form action="main.html" name="myForm1" action="/" onsubmit="return validateForm()" method="post">
         <div class="row">
             <h2 style="text-align:center">Login with Social Media or Manually</h2>
             <div class="vl">
@@ -53,7 +53,7 @@
         <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
         <div id="id01" class="modal">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&#10005;</span>
-            <form class="modal-content" action="/">
+            <form class="modal-content" name="myForm2" action="/" onsubmit="return validateForm()" method="post">
                 <div class="container">
                     <h1>Sign Up</h1>
                     <p>Please fill in this form to create an account.</p>
@@ -76,7 +76,7 @@
                     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
                     <div class="clearfix">
                         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                        <button type="submit" class="signup">Sign Up</button>
+                        <button type="submit" value="Submit" class="signup">Sign Up</button>
                     </div>
                 </div>
             </form>
@@ -104,6 +104,25 @@
 
     function closeForm() {
         document.getElementById("myForm").style.display = "none";
+    }
+    function validateForm() {
+        let x = document.forms["myForm2"]["email"].value;
+        let y = document.forms["myForm2"]["psw"].value;
+        let z = document.forms["myForm2"]["psw-repeat"].value;
+        if (x === "") {
+            alert("Email must be filled out");
+            return false;
+        } else if (y === "") {
+            alert("Password must be filled out");
+            return false;
+        } else if (z === "") {
+            alert("Password must be repeated");
+            return false;
+        } else {
+            alert("Fields must be filled out");
+            return false;
+        }
+
     }
 </script>
 
