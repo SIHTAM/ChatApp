@@ -26,7 +26,24 @@
                     <i class="fa fa-google fa-fw"></i> Login with Google+
                 </a>
             </div>
+            <?php
+// definition of variables
+$username = $password = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $username = test_input($_POST["username"]);
+  $password = test_input($_POST["password"]);
+}
+// For model purposes
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
             <div class="col">
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                 <div class="hide-md-lg">
                     <p>Or sign in manually:</p>
                 </div>
@@ -37,10 +54,10 @@
                     <input type="password" name="password" placeholder="Password" required>
                 </label>
                 <a href="main.html">
-                    <input type="submit" value="Login">
+                    <input type="submit" name="submit" value="Login">
                 </a>
+                </form>
             </div>
-
         </div>
     </form>
 </div>
@@ -86,7 +103,7 @@
 <button class="open-button" onclick="openForm()">Chat</button>
 
 <div class="chat-popup" id="myForm">
-    <form action="/action_page.php" class="form-container">
+    <form action="/" class="form-container">
         <h1>Chat</h1>
 
         <label for="msg"><b>Message</b></label>
