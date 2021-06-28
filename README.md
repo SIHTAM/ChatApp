@@ -92,4 +92,4 @@ Die validateForm() Funktion im index.html eingefügt, die einen POST Request an 
 
 28.06.2021
 
-Eine php Form-Validation im index.html hinzugefügt, sowie die Anbindung von main.html zu friends.html hinzugefügt und die zukünftige php Chat Applikation angefangen.  
+Eine php Form-Validation im index.html hinzugefügt, sowie die Anbindung von main.html zu friends.html hinzugefügt und die zukünftige php Chat Applikation angefangen, sowie die README.md Datei aktualisiert. 
